@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @letrungviet2005
-- 👀 I’m interested in badminton and code
-- 🌱 I’m currently learning in VKU Da Nang
+- 👀 I am interested in badminton and programming
+- 🌱 I’m currently studying at VKU Da Nang and am a first-year student
 
 
 <!---
