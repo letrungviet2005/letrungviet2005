@@ -19,7 +19,6 @@
 - 🏫 Currently a third-year student at Vietnam-Korea University of Information and Communication Technology (VKU)
 - 🌐 I have experience in building modern web applications
 - 🤖 I’m also exploring fields like Artificial Intelligence (AI) and Internet of Things (IoT)
-- 💬 Feel free to ask me about JavaScript, PHP, WebSocket, or WebRTC
 - ⚡ Fun fact: I enjoy solving real-world problems by combining technology and creativity
 
 ---
