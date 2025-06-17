@@ -15,10 +15,12 @@
 
 
 ### 🚀 About Me
-- 🔭 I’m currently working on full-stack web projects using **React**, **Laravel**, and **Node.js**
-- 🌱 I’m learning more about **DevOps** and **System Design**
-- 💬 Ask me about **JavaScript**, **PHP**, **WebSocket**, or **WebRTC**
-- ⚡ Fun fact: I love turning complex problems into elegant solutions
+👨‍💻 I'm a software engineer specializing in full-stack web development
+🏫 Currently a third-year student at Vietnam-Korea University of Information and Communication Technology (VKU)
+🌐 I have experience in building modern web applications
+🤖 I’m also exploring fields like Artificial Intelligence (AI) and Internet of Things (IoT)
+💬 Feel free to ask me about JavaScript, PHP, WebSocket, or WebRTC
+⚡ Fun fact: I enjoy solving real-world problems by combining technology and creativity
 
 ---
 
