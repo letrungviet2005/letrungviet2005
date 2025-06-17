@@ -15,6 +15,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Hi+I'm+Lê+Trung+Việt;Fullstack+Developer+%F0%9F%92%BB;Loves+React%2C+Laravel%2C+WebRTC" />
 </p>
 
+<p align="center">
+  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding" width="400"/>
+</p>
+
 ---
 
 ### 🚀 About Me
