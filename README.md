@@ -11,6 +11,11 @@
 </p>
 
 ---
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=4000&pause=1000&color=F70000&center=true&vCenter=true&width=435&lines=Hi+I'm+Lê+Trung+Việt;Fullstack+Developer+%F0%9F%92%BB;Loves+React%2C+Laravel%2C+WebRTC" />
+</p>
+
+---
 
 ### 🚀 About Me
 - 🔭 I’m currently working on full-stack web projects using **React**, **Laravel**, and **Node.js**
