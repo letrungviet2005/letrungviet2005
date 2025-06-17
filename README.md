@@ -63,12 +63,6 @@
 
 ---
 
-### 📜 Quote of the day
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
-
----
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=letrungviet2005&color=green" alt="Profile views"/>
