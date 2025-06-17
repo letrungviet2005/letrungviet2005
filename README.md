@@ -69,6 +69,5 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=letrungviet2005&color=green" alt="Profile views"/>
   <a href="https://visitcount.itsvg.in">
-    <img src="https://visitcount.itsvg.in/api?id=letrungviet2005&icon=0&color=1" alt="visitors"/>
   </a>
 </p>
