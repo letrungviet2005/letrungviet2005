@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Lê Trung Việt</h1>
+<h1 align="center">Hi 👋, I'm Le Trung Viet</h1>
 <h3 align="center">A passionate full-stack developer from Vietnam 🇻🇳</h3>
 
 <p align="center">
@@ -9,9 +9,8 @@
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat&logo=instagram&logoColor=white"/>
   </a>
 </p>
-
 <p align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="400" />
+  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding" width="400"/>
 </p>
 
 
