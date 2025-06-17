@@ -60,11 +60,4 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=letrungviet2005&layout=compact&theme=dark&hide_border=true" height="150px" />
 </p>
 
----
 
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=letrungviet2005&color=green" alt="Profile views"/>
-  <a href="https://visitcount.itsvg.in">
-  </a>
-</p>
