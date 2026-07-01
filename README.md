@@ -51,12 +51,7 @@
 
 ### 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=letrungviet2005&theme=dark&hide_border=true&show_icons=true" height="170px" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=letrungviet2005&theme=dark&hide_border=true" height="170px" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=letrungviet2005&layout=compact&theme=dark&hide_border=true" height="150px" />
 </p>
 
 
