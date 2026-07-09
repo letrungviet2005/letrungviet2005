@@ -5,7 +5,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C4FF&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;React+%7C+Spring+Boot+%7C+Node.js;Artificial+Intelligence+%26+IoT;Always+learning+new+technologies" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C4FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Spring+Boot+%7C+Node.js;Artificial+Intelligence+%26+IoT;Always+learning+new+technologies" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 </p>
 
 <p align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="420"/>
+  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00C4FF,100:4F46E5&height=220&section=header&text=Welcome%20to%20my%20GitHub&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
 ---
@@ -28,9 +28,9 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 - 🎓 Third-year Software Engineering student at **Vietnam-Korea University of Information and Communication Technology (VKU)**
 - 💻 Passionate about **Full Stack Web Development**
-- 🤖 Exploring **Artificial Intelligence (AI)** & **Internet of Things (IoT)**
-- 🌱 Currently learning **Machine Learning**, **Cloud Computing** and **System Design**
-- ⚡ I enjoy building software that solves real-world problems.
+- 🤖 Interested in **Artificial Intelligence**, **Machine Learning** and **IoT**
+- 🌱 Currently learning **System Design**, **Cloud Computing**, and **Computer Vision**
+- ⚡ Love turning ideas into real-world software.
 
 ---
 
@@ -45,7 +45,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 ### 🌐 Frontend
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,react,bootstrap,tailwind,vite"/>
+<img src="https://skillicons.dev/icons?i=html,css,react,tailwind,bootstrap,vite"/>
 </p>
 
 ### ⚙️ Backend
@@ -54,10 +54,10 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 <img src="https://skillicons.dev/icons?i=nodejs,spring,laravel"/>
 </p>
 
-### 🗄 Database & Cloud
+### 🗄 Database & Dev Tools
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=mysql,gcp,cloudflare,vercel,git,github"/>
+<img src="https://skillicons.dev/icons?i=mysql,git,github,docker,postman,vercel,cloudflare,gcp"/>
 </p>
 
 ---
@@ -65,12 +65,13 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 # 📊 GitHub Statistics
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=letrungviet2005&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=letrungviet2005&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=letrungviet2005&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=letrungviet2005&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=letrungviet2005&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=letrungviet2005&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -78,22 +79,43 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 # 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=letrungviet2005&theme=tokyo-night&hide_border=true"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=letrungviet2005&theme=tokyo-night&hide_border=true"/>
 </p>
 
 ---
 
 # 🏆 Achievements
 
-<p align="center">
-  <img src="assets/award1.png" width="420"/>
-  <img src="assets/award2.png" width="420"/>
-</p>
+<table align="center">
+<tr>
+
+<td align="center">
+<img src="assets/award1.png" width="380"/><br>
+<b>🏅 Achievement 1</b>
+</td>
+
+<td align="center">
+<img src="assets/award2.png" width="380"/><br>
+<b>🏅 Achievement 2</b>
+</td>
+
+</tr>
+</table>
 
 ---
 
-<div align="center">
+# 🌟 Featured Projects
 
+- 🚀 **GoPitch** — Sports field booking platform
+- 🤖 **AI Agent** — Intelligent assistant powered by Python
+- 📄 **OCR Transcript Recognition** — AI-powered grade sheet recognition
+
+---
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=letrungviet2005&style=for-the-badge&color=0e75b6"/>
+</p>
+
+<p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4FF,100:4F46E5&height=120&section=footer"/>
-
-</div>
+</p>
