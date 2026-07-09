@@ -91,12 +91,12 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 <td align="center">
 <img src="assets/award1.png" width="380"/><br>
-<b>🏅 Achievement 1</b>
+<b>🏅 Achievement </b>
 </td>
 
 <td align="center">
 <img src="assets/award2.png" width="380"/><br>
-<b>🏅 Achievement 2</b>
+<b>🏅 Achievement </b>
 </td>
 
 </tr>
