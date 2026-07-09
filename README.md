@@ -86,15 +86,13 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 # 🏆 Achievements
 
 <p align="center">
-  <img src="assets/image (1).png" width="420"/>
-  <img src="assets/image (2).png" width="420"/>
+  <img src="assets/award1.png" width="420"/>
+  <img src="assets/award2.png" width="420"/>
 </p>
 
 ---
 
 <div align="center">
-
-### ⭐ Thanks for visiting my profile ⭐
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4FF,100:4F46E5&height=120&section=footer"/>
 
