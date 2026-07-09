@@ -102,20 +102,6 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 </tr>
 </table>
 
----
-
-# 🌟 Featured Projects
-
-- 🚀 **GoPitch** — Sports field booking platform
-- 🤖 **AI Agent** — Intelligent assistant powered by Python
-- 📄 **OCR Transcript Recognition** — AI-powered grade sheet recognition
-
----
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=letrungviet2005&style=for-the-badge&color=0e75b6"/>
-</p>
-
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4FF,100:4F46E5&height=120&section=footer"/>
 </p>
