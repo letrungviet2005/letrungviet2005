@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Le Trung Viet</h1>
+<h1 align="center">Hi, I'm Le Trung Viet</h1>
 
 <h3 align="center">
 Full Stack Developer • AI Enthusiast • Software Engineering Student
@@ -24,37 +24,37 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 ---
 
-# 🚀 About Me
+#  About Me
 
-- 🎓 Third-year Software Engineering student at **Vietnam-Korea University of Information and Communication Technology (VKU)**
-- 💻 Passionate about **Full Stack Web Development**
-- 🤖 Interested in **Artificial Intelligence**, **Machine Learning** and **IoT**
-- 🌱 Currently learning **System Design**, **Cloud Computing**, and **Computer Vision**
-- ⚡ Love turning ideas into real-world software.
+-  Third-year Software Engineering student at **Vietnam-Korea University of Information and Communication Technology (VKU)**
+-  Passionate about **Full Stack Web Development**
+-  Interested in **Artificial Intelligence**, **Machine Learning** and **IoT**
+-  Currently learning **System Design**, **Cloud Computing**, and **Computer Vision**
+-  Love turning ideas into real-world software.
 
 ---
 
-# 💻 Tech Stack
+#  Tech Stack
 
-### 🖥 Programming Languages
+###  Programming Languages
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,php"/>
 </p>
 
-### 🌐 Frontend
+###  Frontend
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=html,css,react,tailwind,bootstrap,vite"/>
 </p>
 
-### ⚙️ Backend
+###  Backend
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=nodejs,spring,laravel"/>
 </p>
 
-### 🗄 Database & Dev Tools
+###  Database & Dev Tools
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=mysql,git,github,docker,postman,vercel,cloudflare,gcp"/>
@@ -62,7 +62,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 ---
 
-# 📊 GitHub Statistics
+#  GitHub Statistics
 
 <p align="center">
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=letrungviet2005&show_icons=true&theme=tokyonight&hide_border=true"/>
@@ -76,7 +76,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 ---
 
-# 📈 Contribution Graph
+#  Contribution Graph
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=letrungviet2005&theme=tokyo-night&hide_border=true"/>
@@ -84,7 +84,7 @@ Full Stack Developer • AI Enthusiast • Software Engineering Student
 
 ---
 
-# 🏆 Achievements
+#  Achievements
 
 <table align="center">
 <tr>
