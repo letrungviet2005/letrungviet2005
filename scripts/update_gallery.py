@@ -35,6 +35,8 @@ def image_paths(root):
 
 def caption(path):
     stem = Path(path).stem
+    if re.fullmatch(r"(?:award|image|img|photo|picture|dsc)[-_\s]*\d*|\d+", stem, re.IGNORECASE):
+        return ""
     cleaned = re.sub(r"^\d+[-_\s]+", "", stem)
     cleaned = " ".join(re.sub(r"[-_]+", " ", cleaned).split())
     return cleaned or stem
@@ -44,18 +46,28 @@ def render_gallery(paths):
     if not paths:
         return ""
 
-    def card(path):
+    def card(path, index):
         url = quote(path, safe="/")
         label = escape(caption(path), quote=True)
-        return (f'<p align="center">\n'
-                f'  <a href="{url}"><img src="{url}" alt="{label}" width="640"></a>\n'
-                f'  <br>{label}\n</p>')
+        alt = label or f"Learning journey — image {index + 1}"
+        return (f'<td align="center" width="50%">\n'
+                f'  <a href="{url}"><img src="{url}" alt="{alt}" width="440"></a>'
+                + (f'\n  <br><sub>{label}</sub>' if label else '') + '\n</td>')
+
+    def rows(items, offset=0):
+        result = ['<table>']
+        for i in range(0, len(items), 2):
+            result.append('<tr>')
+            result.extend(card(path, offset + i + j) for j, path in enumerate(items[i:i + 2]))
+            result.append('</tr>')
+        result.append('</table>')
+        return '\n'.join(result)
 
     parts = ["## Achievements & Moments", "A few moments from my learning journey."]
-    parts.extend(card(path) for path in paths[:FEATURED])
+    parts.append(rows(paths[:FEATURED]))
     if len(paths) > FEATURED:
         parts.append(f"<details>\n<summary>More moments ({len(paths) - FEATURED})</summary>")
-        parts.extend(card(path) for path in paths[FEATURED:])
+        parts.append(rows(paths[FEATURED:], FEATURED))
         parts.append("</details>")
     return "\n\n".join(parts)
 

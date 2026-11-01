@@ -22,10 +22,10 @@ Không cần nhập danh sách ảnh hoặc sửa README. Xóa/đổi tên ảnh
 - `01_Python-workshop.jpg` → `Python workshop`. Tiền tố số kèm dấu gạch/khoảng trắng được bỏ khỏi caption.
 - `02_Buổi học Python.PNG` → `Buổi học Python`. Tên tiếng Việt, khoảng trắng, `&`, `#`, `%` được mã hóa trong URL và escape trong HTML.
 - Sắp xếp tự nhiên theo đường dẫn tương đối: `2_...` đứng trước `10_...`. Muốn chọn ảnh nổi bật, đặt các ảnh cùng thư mục và dùng `01_`, `02_`. Tên thư mục cũng ảnh hưởng thứ tự.
-- Hai ảnh đầu hiển thị ngay; phần còn lại trong **More moments**. Gallery một cột để ảnh chứng nhận dễ xem trên màn hình nhỏ, không đặt chiều cao hoặc cắt ảnh. Bấm ảnh để mở bản đầy đủ.
+- Hai ảnh đầu hiển thị ngay; phần còn lại trong **More moments**. Gallery hai ảnh mỗi hàng, không đặt chiều cao hoặc cắt ảnh. Trên điện thoại, bấm ảnh để đọc bản đầy đủ. Hàng lẻ vẫn hiển thị ảnh còn lại; phần bổ sung cũng chia hai cột.
 - Không có ảnh thì toàn bộ tiêu đề và gallery được ẩn.
 - `assets/branding/` dành riêng cho banner và trang trí; toàn bộ thư mục bị loại khỏi gallery, kể cả ảnh raster.
-- Hai ảnh gốc `award1.png`, `award2.png` được giữ nguyên. Caption hiện là tên file; hãy đổi sang tên mô tả chính xác nếu muốn đẹp hơn. Script không tự suy diễn tên giải thưởng.
+- Hai ảnh gốc `award1.png`, `award2.png` được giữ nguyên. Tên chung chung như `award1`, `award2`, `IMG_123`, `photo3` hoặc chỉ có số không hiện caption; alt text dùng mô tả trung tính có số thứ tự. Đổi sang tên có ý nghĩa nếu muốn hiện caption. Không cần metadata hoặc sửa README; script không tự suy diễn tên giải thưởng.
 
 ## Thiết lập lần đầu
 
@@ -56,7 +56,7 @@ Các bài kiểm thử dùng thư mục tạm tự dọn dẹp, bao gồm galler
 
 Repository công khai phải mang đúng tên username: `letrungviet2005/letrungviet2005`. File `README.md` phải nằm ở root của nhánh mặc định và có nội dung. Xem profile sau khi push để kiểm tra render thật; bản preview local không xác nhận GitHub Actions hoặc bộ lọc HTML của GitHub đã chạy.
 
-Banner SVG sáng/tối dùng `<picture>` theo giao diện người xem, không tải font bên ngoài hoặc JavaScript. Nội dung quan trọng vẫn có dạng chữ trong README.
+Banner dùng `<picture>`: bản mobile riêng ở viewport tối đa 600px, bản desktop 1200 × 360 cho light/dark. Cả hai giao diện giữ bảng màu Midnight Developer Studio. SVG tự chứa, dùng font hệ thống, không JavaScript. Các ô BUILD / TEACH / EXPLORE và thẻ dự án là ảnh riêng, tự xuống dòng theo chiều rộng. Nội dung giới thiệu và dự án vẫn có dạng chữ và liên kết trong README. Icon và badge đã lưu local; nguồn nằm trong [BRANDING_SOURCES.md](BRANDING_SOURCES.md).
 
 ## Nguồn xác minh và lựa chọn nội dung
 
@@ -68,6 +68,12 @@ Kiểm tra ngày 01/11/2026:
 - Endpoint streak trong README trả HTTP 200 với SVG chứa dữ liệu đóng góp, nên giữ duy nhất widget này. Đây là dịch vụ ngoài và có thể lỗi về sau; liên kết GitHub bằng chữ vẫn dùng được. Contribution graph được bỏ để giữ bố cục gọn.
 - Phiên bản chính thức đã kiểm tra: [checkout v7.0.1](https://github.com/actions/checkout/releases/tag/v7.0.1), [setup-python v7.1.0](https://github.com/actions/setup-python/releases/tag/v7.1.0). Workflow cố định phiên bản cụ thể; kiểm tra release chính thức trước khi nâng cấp.
 
-Đã kiểm tra local: 7 bài kiểm thử đạt; chạy script hai lần cho kết quả ổn định; YAML và actionlint v1.7.12 không báo lỗi; SVG hợp lệ và đường dẫn ảnh tồn tại. README đã được chuyển sang HTML bằng GitHub Markdown API rồi xem trong Edge headless với CSS mô phỏng GitHub: sáng/tối, desktop 1100px và mobile 390px, không tràn ngang, cả hai ảnh gốc tải được. Đã tắt animation của streak và kiểm tra SVG cuối có nội dung đầy đủ. Preview là kiểm tra bố cục local, không phải ảnh chụp profile đã xuất bản.
+## Kiểm chứng lần nâng cấp Midnight Developer Studio — 01/11/2026
 
-Workflow chưa được chạy trên GitHub trong lần bàn giao này. Kết quả local không xác nhận quyền ghi của bot hoặc branch protection. Không có thao tác commit/push tự động từ máy của bạn trong lần triển khai này.
+- Local: 8/8 bài kiểm thử gallery đạt; chạy script lần hai báo `Gallery already up to date`. Kiểm tra thêm caption chung chung, hàng hai ảnh, hàng lẻ, liên kết ảnh gốc; các kiểm thử cũ về loại branding, Unicode và bảo toàn nội dung ngoài marker vẫn đạt.
+- Tất cả 17 SVG trong `assets/branding/` đã được nhúng trong README và parse XML thành công. Mọi đường dẫn ảnh local tồn tại. Gallery thực tế chỉ gồm `assets/award1.png` và `assets/award2.png`; không có tài nguyên branding.
+- HTML README được tạo bằng GitHub Markdown API, sau đó render local bằng Edge headless với github-markdown-css 5.8.1. Đã xem ảnh chụp light/dark ở 390px và 1100px: không ảnh lỗi, không tràn ngang; mobile chọn đúng banner riêng, thẻ tự xuống dòng, gallery không bị cắt hoặc kéo giãn. CSS chỉ dùng trong preview, không nhúng vào README.
+- Kiểm tra mạng: các endpoint icon/badge trả HTTP 200, nội dung SVG hợp lệ trước khi lưu local. Widget streak dùng đúng `user=letrungviet2005`, HTTP 200, SVG có dữ liệu đóng góp và các nhãn thống kê; nhúng bằng `<img>` với palette navy/cyan/indigo, không dùng camo hay ảnh thống kê giả. Dữ liệu thuộc dịch vụ ngoài, có thể thay đổi hoặc ngừng tải về sau; liên kết activity bằng chữ vẫn có sẵn.
+- Nguồn dự án được đọc lại từ GitHub: GoPitch README (UTF-16LE) và pom.xml; Fall Detection main.py. Chỉ mô tả chức năng và công nghệ có trong các nguồn này.
+
+Chưa commit/push thay đổi, chưa kiểm tra profile đã xuất bản hoặc chạy workflow trên GitHub trong lần nâng cấp này. Kiểm tra API Markdown không tương đương kiểm tra trang profile thực tế, quyền ghi bot hoặc branch protection. Workflow hiện có được giữ nguyên.

@@ -1,16 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
-  <title id="title">Le Trung Viet</title>
-  <desc id="desc">Build with curiosity. Teach with clarity. A geometric code motif in cyan and indigo.</desc>
-  <defs><linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs>
-  <rect width="960" height="300" rx="20" fill="#f6f8fa"/>
-  <rect x="1" y="1" width="958" height="298" rx="19" fill="none" stroke="#d5dfec"/>
-  <path d="M660 0v300M720 0v300M780 0v300M840 0v300M900 0v300M630 60h330M630 120h330M630 180h330M630 240h330" stroke="#d5dfec" fill="none" opacity=".55"/>
-  <rect x="48" y="48" width="64" height="5" rx="2.5" fill="url(#accent)"/>
-  <text x="48" y="128" fill="#15243b" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Le Trung Viet</text>
-  <text x="50" y="183" fill="#465a74" font-family="Segoe UI,Arial,sans-serif" font-size="27">Build with curiosity.</text>
-  <text x="50" y="222" fill="#465a74" font-family="Segoe UI,Arial,sans-serif" font-size="27">Teach with clarity.</text>
-  <rect x="704" y="68" width="184" height="164" rx="24" fill="#f6f8fa" stroke="#d5dfec" stroke-width="2"/>
-  <path d="m756 119-24 31 24 31m80-62 24 31-24 31m-29-72-22 82" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="888" cy="68" r="7" fill="#087e9b"/>
-  <path d="M48 267h864" stroke="#d5dfec"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title"><title id="title">Le Trung Viet — Full Stack Developer · Python Instructor</title><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0B1020"/><stop offset="1" stop-color="#20274E"/></linearGradient><linearGradient id="accent"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#818CF8"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#818CF8" stroke-opacity=".10"/></pattern></defs><rect x="1" y="1" width="1198" height="358" rx="22" fill="url(#bg)" stroke="#344267"/><g font-family="Segoe UI,Arial,sans-serif" fill="#E6EDF3"><rect x="1" y="1" width="1198" height="358" rx="22" fill="url(#grid)"/>
+<circle cx="1120" cy="45" r="160" fill="#818CF8" opacity=".07"/><path d="M620 320H690L735 275H1160" stroke="#22D3EE" stroke-opacity=".22" fill="none"/><circle cx="690" cy="320" r="4" fill="#22D3EE"/>
+<rect x="48" y="50" width="36" height="4" rx="2" fill="url(#accent)"/><text x="98" y="58" font-size="15" letter-spacing="3" fill="#94A3B8">MIDNIGHT DEVELOPER STUDIO</text>
+<text x="46" y="146" font-size="62" font-weight="750" letter-spacing="-2">LE TRUNG VIET</text>
+<text x="50" y="193" font-size="24" fill="#22D3EE">Full Stack Developer · Python Instructor</text>
+<text x="50" y="246" font-size="21" fill="#CBD5E1">Building useful software.</text><text x="50" y="277" font-size="21" fill="#CBD5E1">Making code understandable.</text>
+<rect x="720" y="48" width="430" height="252" rx="14" fill="#090E1C" stroke="#455078"/><path d="M720 93H1150" stroke="#263454"/>
+<circle cx="742" cy="71" r="5" fill="#818CF8"/><circle cx="760" cy="71" r="5" fill="#94A3B8"/><circle cx="778" cy="71" r="5" fill="#22D3EE"/><text x="805" y="77" fill="#94A3B8" font-size="16">studio.py</text>
+<g font-family="Consolas,monospace" font-size="20"><text x="745" y="132"><tspan fill="#818CF8">def</tspan> <tspan fill="#22D3EE">every_day</tspan>():</text><text x="745" y="170">    build(<tspan fill="#22D3EE">"with purpose"</tspan>)</text><text x="745" y="208">    teach(<tspan fill="#22D3EE">"with clarity"</tspan>)</text><text x="745" y="246">    explore(<tspan fill="#22D3EE">"what's next"</tspan>)</text></g>
+<text x="50" y="325" font-size="13" fill="#94A3B8" letter-spacing="2">CODE / SHARE / DISCOVER</text></g></svg>

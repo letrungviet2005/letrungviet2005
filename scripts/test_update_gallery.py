@@ -86,7 +86,21 @@ class GalleryTests(unittest.TestCase):
         update(self.root)
         self.assertNotIn(b"\r", self.readme.read_bytes())
         self.assertIn(b"my python class", self.readme.read_bytes())
-        self.assertEqual(caption("123.png"), "123")
+        self.assertEqual(caption("123.png"), "")
+
+    def test_generic_captions_and_paired_rows(self):
+        for name in ['award1.png', 'award2.png', 'photo3.png', '04_Workshop.png', 'image5.png']:
+            self.image(name)
+        update(self.root)
+        data = self.readme.read_text(encoding='utf-8')
+        self.assertNotIn('<sub>award', data)
+        self.assertNotIn('alt="award', data)
+        self.assertIn('Learning journey — image', data)
+        self.assertEqual(data.count('<tr>'), 3)
+        self.assertEqual(data.count('<td '), 5)
+        self.assertEqual(data.count('<a href="assets/'), 5)
+        self.assertIn('<sub>Workshop</sub>', data)
+        self.assertNotIn('height=', data)
 
 
 if __name__ == "__main__":
