@@ -1,107 +1,77 @@
-<h1 align="center">Hi 👋, I'm Le Trung Viet</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/branding/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/branding/banner-light.svg">
+  <img src="assets/branding/banner-light.svg" alt="Le Trung Viet — Build with curiosity. Teach with clarity." width="100%">
+</picture>
 
-<h3 align="center">
-Full Stack Developer • AI Enthusiast • Software Engineering Student
-</h3>
+# Le Trung Viet
+
+**Full Stack Developer · Python Instructor · AI Enthusiast**
+
+I build web applications and teach Python, helping learners turn ideas into clear, practical code. I'm a fourth-year Software Engineering student at **Vietnam-Korea University of Information and Communication Technology (VKU)**, exploring AI, machine learning, and IoT.
+
+[Facebook](https://www.facebook.com/profile.php?id=100027748189490) · [Instagram](https://instagram.com/viet_lee05)
+
+## What I Do
+
+- **Build** — Develop full stack web applications, from user interfaces to backend services.
+- **Teach** — Help Python learners develop programming fundamentals and problem-solving skills.
+- **Explore** — Investigate practical applications of AI and IoT.
+
+Currently learning **System Design**, **Cloud Computing**, and **Computer Vision**.
+
+## Selected Projects
+
+### [GoPitch · Backend](https://github.com/letrungviet2005/GoPitch-BE)
+
+An API for a football pitch booking platform, covering club discovery, scheduling, bookings, and payments.
+
+**Java · Spring Boot · MySQL**
+
+### [Fall Detection](https://github.com/letrungviet2005/Fall-detection)
+
+A video analysis project that combines person detection, pose analysis, and motion tracking to identify possible falls.
+
+**Python · OpenCV · NumPy**
+
+## Tech Stack
+
+**Python** for teaching and exploration · **React** for interfaces · **Spring Boot** for backend development
+
+- **Languages:** Python, Java, JavaScript, TypeScript, C++, PHP
+- **Frontend:** React, HTML, CSS, Tailwind CSS, Bootstrap, Vite
+- **Backend:** Spring Boot, Node.js, Laravel
+- **Database & tools:** MySQL, Git, GitHub, Docker, Postman
+- **Platforms:** Vercel, Cloudflare, Google Cloud
+
+## GitHub Activity
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=00C4FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;React+%7C+Spring+Boot+%7C+Node.js;Artificial+Intelligence+%26+IoT;Always+learning+new+technologies" />
-</p>
-
-<p align="center">
-  <a href="https://www.facebook.com/profile.php?id=100027748189490">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+  <a href="https://github.com/letrungviet2005?tab=overview">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=letrungviet2005&amp;theme=tokyonight&amp;hide_border=true&amp;disable_animations=true" alt="Le Trung Viet's GitHub contribution streak" width="495">
   </a>
+</p>
 
-  <a href="https://instagram.com/viet_lee05">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
-  </a>
+[Explore my repositories](https://github.com/letrungviet2005?tab=repositories) and follow what I'm building.
+
+<!-- GALLERY:START -->
+
+## Achievements & Moments
+
+A few moments from my learning journey.
+
+<p align="center">
+  <a href="assets/award1.png"><img src="assets/award1.png" alt="award1" width="640"></a>
+  <br>award1
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00C4FF,100:4F46E5&height=220&section=header&text=Welcome%20to%20my%20GitHub&fontSize=42&fontColor=ffffff&animation=fadeIn"/>
+  <a href="assets/award2.png"><img src="assets/award2.png" alt="award2" width="640"></a>
+  <br>award2
 </p>
 
----
+<!-- GALLERY:END -->
 
-# 🚀 About Me
+## Connect
 
-- 🎓 Third-year Software Engineering student at **Vietnam-Korea University of Information and Communication Technology (VKU)**
-- 💻 Passionate about **Full Stack Web Development**
-- 🤖 Interested in **Artificial Intelligence**, **Machine Learning** and **IoT**
-- 🌱 Currently learning **System Design**, **Cloud Computing**, and **Computer Vision**
-- ⚡ Love turning ideas into real-world software.
-
----
-
-# 💻 Tech Stack
-
-### 🖥 Programming Languages
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=cpp,java,js,ts,python,php"/>
-</p>
-
-### 🌐 Frontend
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,react,tailwind,bootstrap,vite"/>
-</p>
-
-### ⚙️ Backend
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,spring,laravel"/>
-</p>
-
-### 🗄 Database & Dev Tools
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=mysql,git,github,docker,postman,vercel,cloudflare,gcp"/>
-</p>
-
----
-
-# 📊 GitHub Statistics
-
-<p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=letrungviet2005&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=letrungviet2005&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=letrungviet2005&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 📈 Contribution Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=letrungviet2005&theme=tokyo-night&hide_border=true"/>
-</p>
-
----
-
-# 🏆 Achievements
-
-<table align="center">
-<tr>
-
-<td align="center">
-<img src="assets/award1.png" width="380"/><br>
-<b>🏅 Achievement </b>
-</td>
-
-<td align="center">
-<img src="assets/award2.png" width="380"/><br>
-<b>🏅 Achievement </b>
-</td>
-
-</tr>
-</table>
-
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C4FF,100:4F46E5&height=120&section=footer"/>
-</p>
+Let's talk about building useful software, learning Python, or exploring AI together. Reach me on [Facebook](https://www.facebook.com/profile.php?id=100027748189490) or [Instagram](https://instagram.com/viet_lee05).

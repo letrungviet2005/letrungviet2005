@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">Le Trung Viet</title>
+  <desc id="desc">Build with curiosity. Teach with clarity. A geometric code motif in cyan and indigo.</desc>
+  <defs><linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#6366f1"/></linearGradient></defs>
+  <rect width="960" height="300" rx="20" fill="#f6f8fa"/>
+  <rect x="1" y="1" width="958" height="298" rx="19" fill="none" stroke="#d5dfec"/>
+  <path d="M660 0v300M720 0v300M780 0v300M840 0v300M900 0v300M630 60h330M630 120h330M630 180h330M630 240h330" stroke="#d5dfec" fill="none" opacity=".55"/>
+  <rect x="48" y="48" width="64" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="48" y="128" fill="#15243b" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-2">Le Trung Viet</text>
+  <text x="50" y="183" fill="#465a74" font-family="Segoe UI,Arial,sans-serif" font-size="27">Build with curiosity.</text>
+  <text x="50" y="222" fill="#465a74" font-family="Segoe UI,Arial,sans-serif" font-size="27">Teach with clarity.</text>
+  <rect x="704" y="68" width="184" height="164" rx="24" fill="#f6f8fa" stroke="#d5dfec" stroke-width="2"/>
+  <path d="m756 119-24 31 24 31m80-62 24 31-24 31m-29-72-22 82" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="888" cy="68" r="7" fill="#087e9b"/>
+  <path d="M48 267h864" stroke="#d5dfec"/>
+</svg>

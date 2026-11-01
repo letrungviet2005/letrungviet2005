@@ -1,0 +1,61 @@
+name: Update profile gallery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+      - 'scripts/update_gallery.py'
+      - 'scripts/test_update_gallery.py'
+      - '.github/workflows/update-gallery.yml'
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: profile-gallery
+  cancel-in-progress: false
+
+jobs:
+  update-gallery:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.13'
+      - name: Regenerate from the latest branch and push safely
+        shell: bash
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin "$DEFAULT_BRANCH"
+            # Only the disposable Actions checkout is reset, never a local workspace.
+            git reset --hard "origin/$DEFAULT_BRANCH"
+            python -B -m unittest discover -s scripts -p 'test_*.py'
+            python scripts/update_gallery.py
+            if git diff --quiet -- README.md; then
+              echo 'Gallery is up to date.'
+              exit 0
+            fi
+            git add -- README.md
+            git commit -m 'docs: update profile gallery'
+            if git push origin "HEAD:$DEFAULT_BRANCH"; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); regenerating from the latest branch."
+            sleep 2
+          done
+          echo 'Could not push README. Check token permissions, branch rules, or concurrent pushes.' >&2
+          exit 1
